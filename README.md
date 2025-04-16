@@ -62,14 +62,10 @@ var blobClient2 = new BlobClient("https://damienbod.blob.core.windows.net/wow-bl
 
 ## Links
 
-https://docs.sonarsource.com/sonarcloud/getting-started/github/
-
-https://github.com/rufer7/github-sonarcloud-integration
-
-https://github.com/GitGuardian/ggshield
-
-https://dashboard.gitguardian.com/workspace/142648/perimeter?health=_&sort_health=true&sort_ic=true
-
-https://github.com/zricethezav/gitleaks
-
-https://codeql.github.com/docs/
+- https://docs.sonarsource.com/sonarqube-cloud/getting-started/github/
+- https://github.com/rufer7/github-sonarcloud-integration
+- https://github.com/GitGuardian/ggshield
+- https://dashboard.gitguardian.com/workspace/142648/perimeter?health=_&sort_health=true&sort_ic=true
+- https://github.com/gitleaks/gitleaks
+- https://codeql.github.com/docs/
+- https://docs.github.com/en/code-security/secret-scanning/introduction/supported-secret-scanning-patterns
