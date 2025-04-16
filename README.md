@@ -24,15 +24,15 @@
 
 ```
 {
-   "ConnectionStrings": {
+  "ConnectionStrings": {
     "DefaultConnection": "Data Source=.\\SQLEXPRESS;Initial Catalog=FilesDescriptionAzureStorage;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False",
     "AzureServiceBus": "Endpoint=sb://test.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=h1fdfdgfjnhmcvbtz65h65hn6hgeb"
   },
   "AzureAd": {
-    "ClientSecret": "vvfgfhghgjw4tgrgfbgfhgfjsrt",
+    "ClientSecret": "vvfgfhghgjw4tgrgfbgfhgfjstGt",
   },
   "ApiTwo": {
-    "accessToken": "eygregertg4ert3gtrhzi76gfnghmjhmjhmdfrsfreterhgfndghvbfvb"
+    "accessToken": "eygregertg4ert3gtrhzi76gfnDghmjhmjhmdfrsfreterhgfndghvbfvb"
   },
   "ApiThree": {
     "key": "fgfgfgmr43rfef)333ffrvvdedcggfd43r43gtjnumjnb"
@@ -44,7 +44,7 @@
     "ApiKey": "Yp9B3$7i6epJbuUfOcgC"
   },
   "SecretMatchingGitHubPatternExactly": {
-    "azure_apim_gateway_key": "abc1234"
+    "azure_apim_gateway_key": "abc123"
   }
 }
 ```
