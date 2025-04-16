@@ -44,7 +44,7 @@
     "ApiKey": "Yp9B3$7i6epJbuUfOcgC"
   },
   "SecretMatchingGitHubPatternExactly": {
-    "azure_apim_gateway_key": "abcd1234"
+    "azure_apim_gateway_key": "abc1234"
   }
 }
 ```
