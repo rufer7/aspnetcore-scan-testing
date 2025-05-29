@@ -20,6 +20,10 @@
 
 [![.NET](https://github.com/damienbod/aspnetcore-scan-testing/actions/workflows/dotnet-gitleaks.yml/badge.svg)](https://github.com/damienbod/aspnetcore-scan-testing/actions/workflows/dotnet-gitleaks.yml)
 
+[![.NET](https://github.com/damienbod/aspnetcore-scan-testing/actions/workflows/trufflehog.yml/badge.svg)](https://github.com/damienbod/aspnetcore-scan-testing/actions/workflows/trufflehog.yml)
+
+GitHub secret scanning (reported under `Security` tab)
+
 ## secrets added to the appsettings.json
 
 ```json
@@ -74,3 +78,4 @@ var password = "admin1234";
 - https://github.com/gitleaks/gitleaks
 - https://codeql.github.com/docs/
 - https://docs.github.com/en/code-security/secret-scanning/introduction/supported-secret-scanning-patterns
+- https://github.com/trufflesecurity/trufflehog
