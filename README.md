@@ -20,7 +20,7 @@
 
 [![.NET](https://github.com/damienbod/aspnetcore-scan-testing/actions/workflows/dotnet-gitleaks.yml/badge.svg)](https://github.com/damienbod/aspnetcore-scan-testing/actions/workflows/dotnet-gitleaks.yml)
 
-[![.NET](https://github.com/damienbod/aspnetcore-scan-testing/actions/workflows/trufflehog.yml/badge.svg)](https://github.com/damienbod/aspnetcore-scan-testing/actions/workflows/trufflehog.yml)
+[![TruffleHog](https://github.com/damienbod/aspnetcore-scan-testing/actions/workflows/trufflehog.yml/badge.svg)](https://github.com/damienbod/aspnetcore-scan-testing/actions/workflows/trufflehog.yml)
 
 GitHub secret scanning (reported under `Security` tab)
 
