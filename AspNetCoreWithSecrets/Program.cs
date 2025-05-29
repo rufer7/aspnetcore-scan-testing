@@ -7,7 +7,7 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        var password = "admin1234";
+        var password = "admin1234!";
         CreateHostBuilder(args).Build().Run();
     }
 
