@@ -1,7 +1,7 @@
 # ASP.NET Core scan testing
 
 > [!NOTE]
-> All Azure related secrets are real secrets which got inavlidated before pushing them to the repository
+> All Azure related secrets are real secrets which got deactivated before pushing them to the repository
 
 ## SonarQube Cloud
 
