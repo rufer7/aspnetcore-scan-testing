@@ -12,8 +12,8 @@ namespace AspNetCoreWithSecrets.FilesProvider.AzureStorageAccess;
 
 public class AzureStorageProvider
 {
-    private readonly string _blobConnectionString = "https://damienbod.blob.core.windows.net/nick?sp=r&st=2021-07-30T09:16:27Z&se=2021-07-30T17:16:27Z&spr=https&sv=2020-09-04&sr=c&sig=2wde34frfr21123456zZTjPO%2B2UstoxD349vchg5078145421E75tfDKJOs%3D";
-    private readonly string _blobKey = "sp=r&st=2021-07-30T09:16:27Z&se=2021-07-30T17:16:27Z&spr=https&sv=2020-08-04&sr=c&sig=vVK1BqcbgDUDVzZTjPO%2B2Ushfdfd33435t3899oNJEPlTQDKJOs%3D";
+    private string _blobConnectionString = "https://sarufer7.blob.core.windows.net/test?sp=r&st=2025-06-18T11:07:27Z&se=2025-06-18T11:09:27Z&spr=https&sv=2024-11-04&sr=c&sig=JLS7wLGXxvFConsaEGWd4UeD%2BpfC2o9fYcMhH%2FAwnD8%3D";
+    private string _blobKey = "sp=r&st=2025-06-18T11:07:27Z&se=2025-06-18T11:09:27Z&spr=https&sv=2024-11-04&sr=c&sig=JLS7wLGXxvFConsaEGWd4UeD%2BpfC2o9fYcMhH%2FAwnD8%3D";
 
     private readonly TokenAcquisitionTokenCredential _tokenAcquisitionTokenCredential;
     private readonly IConfiguration _configuration;
@@ -48,7 +48,7 @@ public class AzureStorageProvider
         var blobUri = new Uri(fileFullName);
         var blobClient = new BlobClient(blobUri, _tokenAcquisitionTokenCredential);
 
-        var blobClient2 = new BlobClient("https://damienbod.blob.core.windows.net/wow-blog?sp=r&st=2021-07-30T09:16:27Z&se=2021-07-30T17:16:27Z&spr=https&sv=2020-08-04&sr=c&sig=vV234566561B543frfrth654e2dej&9)TjPO%2B2UstoxDqN0788kd34md875WdDuPl98w23KJOs%3D", "damienbod", "fdfdf");
+        var blobClient2 = new BlobClient("https://sarufer7.blob.core.windows.net/test?sp=r&st=2025-06-18T11:07:27Z&se=2025-06-18T11:09:27Z&spr=https&sv=2024-11-04&sr=c&sig=JLS7wLGXxvFConsaEGWd4UeD%2BpfC2o9fYcMhH%2FAwnD8%3D", "test", "arbitrary-file.txt");
 
         return await blobClient.DownloadAsync();
     }
