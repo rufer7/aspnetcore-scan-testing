@@ -27,6 +27,10 @@
 
 GitHub secret scanning (reported under `Security` tab)
 
+![gh-secret-scanning-push-protection-alert](/gh-secret-scanning-push-protection-alert.png)
+
+![gh-secret-scanning-mail-notification](/gh-secret-scanning-mail-notification.png)
+
 ## secrets added to the appsettings.json
 
 ```json
