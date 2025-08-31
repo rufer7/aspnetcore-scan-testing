@@ -7,13 +7,17 @@ on:
     types: [opened, synchronize, reopened]
 jobs:
   sonarqube:
-    name: SonarQube
+    name: SonarQubeCloud
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0  
-      - name: SonarQubeScan
+      - name: SonarQubeCloudScan
         uses: SonarSource/sonarqube-scan-action@v4
+        with:
+          args:
+            -Dsonar.organization=rufer7
+            -Dsonar.projectKey=rufer7_aspnetcore-scan-testin
         env: 
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
