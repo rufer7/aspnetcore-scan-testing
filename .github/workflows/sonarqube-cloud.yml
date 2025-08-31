@@ -18,6 +18,6 @@ jobs:
         with:
           args:
             -Dsonar.organization=rufer7
-            -Dsonar.projectKey=rufer7_aspnetcore-scan-testin
+            -Dsonar.projectKey=rufer7_aspnetcore-scan-testing
         env: 
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
